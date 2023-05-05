@@ -4,7 +4,7 @@ CC = gcc
 
 CFLAGS = -Wall -Wextra -Werror
 
-CO_SRC = colleen.c
+CO_SRC = Colleen.c
 
 all: $(CO_NAME)
 
