@@ -15,7 +15,7 @@ $(CO_NAME): $(CO_SRC)
 	@echo "\n Colleen compiled \n"
 
 $(GR_NAME): $(GR_SRC)
-	$(CC) $(CFLAGS) -o $(GR_NAME) $(GR_SRC)
+	@$(CC) $(CFLAGS) -o $(GR_NAME) $(GR_SRC)
 	@echo "\n Grace compiled \n"
 
 clean:
