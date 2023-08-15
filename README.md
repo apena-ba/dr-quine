@@ -19,7 +19,9 @@ techniques that some types of malware can use to spread themselves into a system
 ## Usage
 ### Compiling and Running
 Run `make Colleen` to compile Collen and execute it with `./Collen`.
+
 Run `make Grace` to compile Grace and execute it with `./Grace`.
+
 Run `make Sully` to compile Sully and execute it with `./Sully`.
 
 ### Cleaning
