@@ -1,5 +1,5 @@
 # Dr-Quine
-[Quine](https://en.wikipedia.org/wiki/Quine) and Self-Replicating project by 42 School
+[Quine](https://en.wikipedia.org/wiki/Quine_(computing)) and Self-Replicating project by 42 School
 
 ## Description
 The goal of this project is coding three different quines in C.
