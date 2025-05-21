@@ -8,19 +8,19 @@ global main
 extern printf
 extern fflush
 main:
-    and rsp, -16
-    mov rdi, code
-    mov rsi, 10
-    mov rdx, 34
-    mov rcx, code
-    mov r8, 9
-    xor rax, rax
+	and rsp, -16
+	mov rdi, code
+	mov rsi, 10
+	mov rdx, 34
+	mov rcx, code
+	mov r8, 9
+	xor rax, rax
 
-    call printf
+	call printf
 
-    mov rdi, 0
-    call fflush
+	mov rdi, 0
+	call fflush
 
-    mov rax, 60
-    xor rdi, rdi
-    syscall
+	mov rax, 60
+	xor rdi, rdi
+	syscall
