@@ -25,11 +25,11 @@ $(SU_NAME): $(SU_SRC)
 	@echo "\n Sully compiled \n"
 
 clean:
-	@echo "\n No objects to clean \n"
+	@echo "\n No object files found to clean \n"
 
 fclean: clean
 	@rm -rf $(CO_NAME) $(GR_NAME) $(SU_NAME)
-	@echo "\n Executables destroyed  \n"
+	@echo "\n Executables removed  \n"
 
 suclean: fclean
 	@rm -rf Sully_*
@@ -38,4 +38,4 @@ suclean: fclean
 
 re: fclean all
 
-.PHONY: all fclean clean re
+.PHONY: all fclean clean suclean re
