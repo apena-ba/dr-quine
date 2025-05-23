@@ -22,7 +22,7 @@ int main(){
 		char progname[8];
 		sprintf(filename, "Sully_%d.c", i);
 		sprintf(progname, "Sully_%d", i);
-		copyAndRun(filename, progname);		
+		copyAndRun(filename, progname);
 	}
 	return 0;
 }
