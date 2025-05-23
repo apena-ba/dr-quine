@@ -10,7 +10,7 @@ GR_SRC = Grace.s
 SU_SRC = Sully.s
 
 CFLAGS = -f elf64
-LFLAGS = -no-pie
+LFLAGS = -nostartfiles -no-pie -e _start
 
 CO_OBJ = Colleen.o
 GR_OBJ = Grace.o
